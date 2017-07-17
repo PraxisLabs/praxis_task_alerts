@@ -1,0 +1,10 @@
+name = Praxis failed task alerts
+core = 7.x
+package = Features
+dependencies[] = aegir_rules
+dependencies[] = entity
+dependencies[] = rules
+dependencies[] = rules_admin
+features[features_api][] = api:2
+features[rules_config][] = rules_failed_task_alerts
+project path = sites/dev.gboudrias.ca/modules/
